@@ -1,0 +1,6 @@
+# Directories
+.catkin_tools/
+build/
+devel/
+logs/
+.vscode/
