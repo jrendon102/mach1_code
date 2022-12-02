@@ -1,3 +1,6 @@
 [submodule "src/expansion_board_driver"]
 	path = src/expansion_board_driver
 	url = git@github.com:jrendon102/expansion_board_driver.git
+[submodule "src/camera_usb_driver"]
+	path = src/camera_usb_driver
+	url = git@github.com:jrendon102/camera_usb_driver.git

@@ -9,9 +9,21 @@ This is a small personal project of mine which simply aims to expand my knowledg
    git clone --recurse-submodules git@github.com:jrendon102/mach1.git
    ```
 ### Dependencies
-gpiozero
-- Download, installation and documentation can be found [here](https://gpiozero.readthedocs.io/en/stable/installing.html).
+1. gpiozero
+   - Download, installation and documentation can be found [here](https://gpiozero.readthedocs.io/en/stable/installing.html).
+   - This library is used to communicate with the gpio pins on the Raspberry Pi.
 
+2. OpenCV 4
+   - Download, installation and set up can be found [here](http://www.codebind.com/linux-tutorials/how-to-install-opencv-in-ubuntu-20-04-lts-for-c-c/).
+   - Needed to setup the usb connected camera.
+3. Clang 12 
+   - run the following commands in a terminal session.
+      ```
+      sudo apt install clang-12 --install-suggests
+      ```
+   - Used to format cpp files in `camera_usb_driver` package.
+
+   <mark>**Note:**</mark> More info can be found in each packages `README.md` files.
 ### Videos
 ***Coming soon.***
 
