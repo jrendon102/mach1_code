@@ -1,0 +1,8 @@
+ros-noetic-cv-bridge
+ros-noetic-hector-slam
+ros-noetic-hector-slam-launch
+ros-noetic-joy
+ros-noetic-joy-teleop
+ros-noetic-rplidar-ros
+ros-noetic-teleop-twist-keyboard
+ros-noetic-tf
