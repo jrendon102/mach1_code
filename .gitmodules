@@ -4,3 +4,6 @@
 [submodule "src/camera_usb_driver"]
 	path = src/camera_usb_driver
 	url = git@github.com:jrendon102/camera_usb_driver.git
+[submodule "src/mach1_bringup"]
+	path = src/mach1_bringup
+	url = git@github.com:jrendon102/mach1_bringup.git
