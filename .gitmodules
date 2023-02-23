@@ -7,3 +7,6 @@
 [submodule "src/mach1_bringup"]
 	path = src/mach1_bringup
 	url = git@github.com:jrendon102/mach1_bringup.git
+[submodule "src/mach1_msgs"]
+	path = src/mach1_msgs
+	url = git@github.com:jrendon102/mach1_msgs.git
