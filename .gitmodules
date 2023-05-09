@@ -10,3 +10,6 @@
 [submodule "src/mach1_msgs"]
 	path = src/mach1_msgs
 	url = git@github.com:jrendon102/mach1_msgs.git
+[submodule "src/mach1_navigation"]
+	path = src/mach1_navigation
+	url = git@github.com:jrendon102/mach1_navigation.git
