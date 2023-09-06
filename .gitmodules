@@ -16,3 +16,6 @@
 [submodule "src/camera_driver"]
 	path = src/camera_driver
 	url = git@github.com:jrendon102/camera_driver.git
+[submodule "src/mach1_simulation"]
+	path = src/mach1_simulation
+	url = git@github.com:jrendon102/mach1_simulation.git
