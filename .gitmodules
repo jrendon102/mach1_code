@@ -13,3 +13,6 @@
 [submodule "src/mach1_navigation"]
 	path = src/mach1_navigation
 	url = git@github.com:jrendon102/mach1_navigation.git
+[submodule "src/camera_driver"]
+	path = src/camera_driver
+	url = git@github.com:jrendon102/camera_driver.git
