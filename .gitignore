@@ -1,6 +1,89 @@
-# Directories
+# Ignore build and devel directories in each ROS package
+**/build/
+**/devel/
+**/bin/
+**/lib/
+**/msg_gen/
+**/srv_gen/
+**/include/
+
+# Ignore logs and core dumps
+*.log
+core*
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore Catkin generated files
+*.cmake
+CMakeLists.txt.user
+catkin_generated/
+install_manifest.txt
+
+# Ignore ROS workspace settings
+*.rosinstall
+install/
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Ignore Catkin tools and workspace-related files
 .catkin_tools/
+.catkin_workspace
+logs/
+
+# Ignore compiled CMake files
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
 build/
 devel/
-logs/
-.vscode/
+
+# Ignore pyenv
+.pyenv/
+
+# Additional ROS-specific rules
+msg/*Action.msg
+msg/*ActionFeedback.msg
+msg/*ActionGoal.msg
+msg/*ActionResult.msg
+msg/*Feedback.msg
+msg/*Goal.msg
+msg/*Result.msg
+msg/_*.py
+build_isolated/
+devel_isolated/
+*.cfgc
+/cfg/cpp/
+/cfg/*.py
+
+# Ignore generated docs
+*.dox
+*.wikidoc
+
+# Eclipse and QtCreator related files
+.project
+.cproject
+CMakeLists.txt.user
+
+# Custom ROS service files
+srv/_*.py
+*.pcd
+qtcreator-*
+*.user
+
+# ROS planning directory
+/planning/cfg
+/planning/docs
+/planning/src
+
+# Emacs
+.#*
+
+# Catkin custom files
+CATKIN_IGNORE
