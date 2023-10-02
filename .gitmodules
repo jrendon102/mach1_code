@@ -1,9 +1,3 @@
-[submodule "src/expansion_board_driver"]
-	path = src/expansion_board_driver
-	url = git@github.com:jrendon102/expansion_board_driver.git
-[submodule "src/camera_usb_driver"]
-	path = src/camera_usb_driver
-	url = git@github.com:jrendon102/camera_usb_driver.git
 [submodule "src/mach1_bringup"]
 	path = src/mach1_bringup
 	url = git@github.com:jrendon102/mach1_bringup.git
@@ -13,12 +7,12 @@
 [submodule "src/mach1_navigation"]
 	path = src/mach1_navigation
 	url = git@github.com:jrendon102/mach1_navigation.git
-[submodule "src/camera_driver"]
-	path = src/camera_driver
-	url = git@github.com:jrendon102/camera_driver.git
 [submodule "src/mach1_simulation"]
 	path = src/mach1_simulation
 	url = git@github.com:jrendon102/mach1_simulation.git
 [submodule "src/ros_utils"]
 	path = src/ros_utils
 	url = git@github.com:jrendon102/ros_utils.git
+[submodule "src/mach1_hardware"]
+	path = src/mach1_hardware
+	url = git@github.com:jrendon102/mach1_hardware.git
