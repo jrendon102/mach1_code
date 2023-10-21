@@ -47,7 +47,7 @@ To get started, follow these steps:
 
 1. Clone this `mach1_code` repository to your local machine:
    ```bash
-   git clone --recurse-submodule https://github.com/jrendon102/mach1_code.git
+   git clone --recurse-submodule git@github.com:MACH1-ROBOT/mach1_code.git
    ```
 
 2. Build the ROS workspace using `catkin_make` or your preferred ROS build tool to compile and make the packages available for use.
