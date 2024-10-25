@@ -8,6 +8,7 @@
 **/include/
 
 # Ignore logs and core dumps
+**/log/
 *.log
 core*
 
