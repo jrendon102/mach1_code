@@ -1,1 +1,4 @@
 
+[submodule "src/machx_hardware"]
+	path = src/machx_hardware
+	url = git@github.com:jrendon102/machx_hardware.git
